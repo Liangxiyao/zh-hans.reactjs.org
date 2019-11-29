@@ -227,7 +227,7 @@ ReactDOM.render(
 );
 ```
 
-从这起你可开始以把更多的逻辑移动到组件中，并且开始应用更多通用 React 实践。例如，在组件中最好不要依赖 ID 因为同一个组件可能会被渲染多次。相反的，我们会使用 [React 事件系统](/docs/handling-events.html) 并且直接注册 click 处理函数到 React `<button>` 元素：
+从这起你可以开始把更多的逻辑移动到组件中，并且开始应用更多通用 React 实践。例如，在组件中最好不要依赖 ID 因为同一个组件可能会被渲染多次。相反的，我们会使用 [React 事件系统](/docs/handling-events.html) 并且直接注册 click 处理函数到 React `<button>` 元素：
 
 ```js{2,6,9}
 function Button(props) {
